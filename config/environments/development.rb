@@ -12,6 +12,7 @@ Rails.application.configure do
   # Show full error reports.
   config.consider_all_requests_local = true
 
+
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
     config.action_controller.perform_caching = true
@@ -36,6 +37,9 @@ Rails.application.configure do
 
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
+
+  #We'll need to allow all client's the ability to connect to our new socket url. Just enabling cors is not enough because our socket has it's own protection again forgery. Make sure the following line is in your project:
+  config.action_cable.disable_request_forgery_protection = true
 
 
   # Raises error for missing translations
