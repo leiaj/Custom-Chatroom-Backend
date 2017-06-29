@@ -22,7 +22,7 @@ Item.create(
 
 Item.create(
   name: "fido",
-  img_url: "https://media1.giphy.com/media/26FxJ7Jx9D8BGk7gA/giphy.gif",
+  img_url: "https://media1.giphy.com/media/rwiOduiq2oatO/giphy.gif",
   chatroom_id: 1
 )
 
