@@ -17,24 +17,18 @@ User.create(
 Item.create(
   name: "lava lamp",
   img_url: "http://i.imgur.com/XAURN4T.png",
-  x_coordinate: 0,
-  y_coordinate: 0,
   chatroom_id: 1
 )
 
 Item.create(
   name: "fido",
   img_url: "https://media1.giphy.com/media/26FxJ7Jx9D8BGk7gA/giphy.gif",
-  x_coordinate: 0,
-  y_coordinate: 0,
   chatroom_id: 1
 )
 
 Item.create(
   name: "hot dolphin",
   img_url: "https://media1.giphy.com/media/xUA7aOf5PJO5Alwqas/giphy.gif",
-  x_coordinate: 0,
-  y_coordinate: 0,
   chatroom_id: 1
 )
 
