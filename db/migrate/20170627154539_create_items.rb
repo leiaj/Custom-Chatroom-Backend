@@ -4,6 +4,8 @@ class CreateItems < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :img_url
       t.integer :chatroom_id
+      t.integer :x_coord
+      t.integer :y_coord
 
       t.timestamps
     end

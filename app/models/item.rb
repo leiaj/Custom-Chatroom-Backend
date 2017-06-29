@@ -1,5 +1,4 @@
 class Item < ApplicationRecord
-  has_many :item_chatrooms
-  has_many :chatrooms, through: :item_chatrooms
+  belongs_to :chatroom
 
 end

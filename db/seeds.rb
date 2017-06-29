@@ -17,22 +17,29 @@ User.create(
 Item.create(
   name: "lava lamp",
   img_url: "http://i.imgur.com/XAURN4T.png",
-  chatroom_id: 1
+  chatroom_id: 1,
+  x_coord: 0,
+  y_coord: 0
 )
 
 Item.create(
   name: "fido",
   img_url: "https://media1.giphy.com/media/rwiOduiq2oatO/giphy.gif",
-  chatroom_id: 1
+  chatroom_id: 1,
+  x_coord: 0,
+  y_coord: 0
 )
 
 Item.create(
   name: "hot dolphin",
   img_url: "https://media1.giphy.com/media/xUA7aOf5PJO5Alwqas/giphy.gif",
-  chatroom_id: 1
+  chatroom_id: 1,
+  x_coord: 0,
+  y_coord: 0
 )
 
 Chatroom.create(
   name: "Flatiron School",
-  background_img_url: "http://i.imgur.com/DAKRC2t.jpg"
+  background_img_url: "http://i.imgur.com/DAKRC2t.jpg",
+  user_id: 1
 )
