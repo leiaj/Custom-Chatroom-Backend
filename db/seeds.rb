@@ -39,6 +39,12 @@ Item.create(
 )
 
 Chatroom.create(
+name: "home",
+background_img_url: 'http://cosmoenergetics.gr/wp-content/uploads/2015/10/cosmoenergetics.gr-initiation-stairway-to-heaven-1000x500.jpg',
+user_id: 1
+)
+
+Chatroom.create(
   name: "Flatiron School",
   background_img_url: "http://i.imgur.com/DAKRC2t.jpg",
   user_id: 1
