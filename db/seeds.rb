@@ -14,9 +14,15 @@ User.create(
   header_img: "http://i.imgur.com/CrG8kDW.jpg"
 )
 
+Chatroom.create(
+name: "home",
+background_img_url: 'http://cosmoenergetics.gr/wp-content/uploads/2015/10/cosmoenergetics.gr-initiation-stairway-to-heaven-1000x500.jpg',
+user_id: 1
+)
+
 Item.create(
-  name: "lava lamp",
-  img_url: "http://i.imgur.com/XAURN4T.png",
+  name: "baby dance",
+  img_url: "https://media1.giphy.com/media/5X7GDf7zc1Ebu/giphy.gif",
   chatroom_id: 1,
   x_coord: 0,
   y_coord: 0
@@ -38,14 +44,33 @@ Item.create(
   y_coord: 0
 )
 
-Chatroom.create(
-name: "home",
-background_img_url: 'http://cosmoenergetics.gr/wp-content/uploads/2015/10/cosmoenergetics.gr-initiation-stairway-to-heaven-1000x500.jpg',
-user_id: 1
-)
 
 Chatroom.create(
   name: "Flatiron School",
   background_img_url: "http://i.imgur.com/DAKRC2t.jpg",
   user_id: 1
+)
+
+Item.create(
+  name: "money",
+  img_url: "https://media3.giphy.com/media/eavFitjzpWPYc/giphy.gif",
+  chatroom_id: 2,
+  x_coord: 0,
+  y_coord: 0
+)
+
+Item.create(
+  name: "banana dancing",
+  img_url: "https://media3.giphy.com/media/14jN4h45ovv4A0/giphy.gif",
+  chatroom_id: 2,
+  x_coord: 0,
+  y_coord: 0
+)
+
+Item.create(
+  name: "michael jackson",
+  img_url: "https://media1.giphy.com/media/UjPBQkSYNQc1y/giphy.gif",
+  chatroom_id: 2,
+  x_coord: 0,
+  y_coord: 0
 )
