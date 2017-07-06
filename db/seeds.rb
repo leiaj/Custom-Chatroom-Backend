@@ -51,13 +51,6 @@ Chatroom.create(
   user_id: 1
 )
 
-Item.create(
-  name: "money",
-  img_url: "https://media3.giphy.com/media/eavFitjzpWPYc/giphy.gif",
-  chatroom_id: 2,
-  x_coord: 0,
-  y_coord: 0
-)
 
 Item.create(
   name: "banana dancing",

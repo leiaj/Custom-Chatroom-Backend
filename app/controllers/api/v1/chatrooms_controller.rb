@@ -18,7 +18,7 @@ class Api::V1::ChatroomsController < ActionController::API
   private
 
   def chatroom_params
-    params.require(:chatroom).permit(:name, :background_img_url)
+    params.require(:chatroom).permit(:name, :background_img_url, :user_id)
   end
 
 end

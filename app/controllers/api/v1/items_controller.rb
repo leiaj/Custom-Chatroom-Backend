@@ -7,7 +7,7 @@ class Api::V1::ItemsController < ActionController::API
   end
 
   def create
-    item = Item.create(items_params)
+    item = Item.create(item_params)
     render json: item
   end
 
