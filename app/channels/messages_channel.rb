@@ -1,13 +1,9 @@
 class MessagesChannel < ApplicationCable::Channel
   def subscribed
-    stream_from 'messages'
+    stream_from "chat_#{params[:room]}"
   end
 
-  def receive(payload)
-    message = Message.new(content: payload["content"])
-    message.user = User.first
-    message.chatroom = Chatroom.first
-    message.save
-    ActionCable.server.broadcast('messages', MessageSerializer.new(message))
+  def receive(data)
+    ActionCable.server.broadcast("chat_#{params[:room]}", data)
   end
 end
