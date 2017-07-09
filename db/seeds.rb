@@ -15,7 +15,7 @@ User.create(
 )
 
 Chatroom.create(
-name: "home",
+name: "Heaven",
 background_img_url: 'http://cosmoenergetics.gr/wp-content/uploads/2015/10/cosmoenergetics.gr-initiation-stairway-to-heaven-1000x500.jpg',
 user_id: 1
 )
@@ -66,4 +66,34 @@ Item.create(
   chatroom_id: 2,
   x_coord: 0,
   y_coord: 0
+)
+
+Chatroom.create(
+  name: "Future City",
+  background_img_url: "https://68.media.tumblr.com/9f13608d9fd7807322fcbef4f517a97f/tumblr_nv7g64y7q91up139zo1_1280.gif",
+  user_id: 1
+)
+
+Chatroom.create(
+  name: "Beach Paradise",
+  background_img_url: "https://cutekawaiiresources.files.wordpress.com/2013/04/193831.gif",
+  user_id: 1
+)
+
+Chatroom.create(
+  name: "Beach Resort",
+  background_img_url: "https://68.media.tumblr.com/2c1de1cc9f73065883ae35deb2bc37aa/tumblr_ornxe2auP81wna7dbo1_500.gif",
+  user_id: 1
+)
+
+Chatroom.create(
+  name: "Winter Land",
+  background_img_url: "https://cutekawaiiresources.files.wordpress.com/2013/04/tumblr_mwycqupzwg1rfjowdo1_500.gif",
+  user_id: 1
+)
+
+Chatroom.create(
+  name: "A Mermaid's House",
+  background_img_url: "https://cutekawaiiresources.files.wordpress.com/2013/04/tumblr_m3mt60j65o1rv68y7o1_500.gif",
+  user_id: 1
 )
